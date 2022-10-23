@@ -4,9 +4,11 @@
     box-sizing: border-box;
 }
 
-
+h1{
+    font-family: 'Traditional Arabic', sans-serif;
+}
 body{
-    font-family: 'Cairo', sans-serif;
+    font-family: 'Tahoma', sans-serif;
 }
 
 
@@ -90,7 +92,7 @@ background: #563434;
 }
 
 .header .row{
-    margin-top: 70px;
+    margin-top: 0px;
 
 }
 .categoris{
