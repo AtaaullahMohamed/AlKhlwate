@@ -1,8 +1,14 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <!-- RESPOSNIVE -->
+    <!-- <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" > -->
+     
+    
+    <link rel="stylesheet" href="home2.css">
+
   <title>تواصل معنا</title>
-  <link rel="stylesheet" href="home2.css">
   <link rel="icon" type="image/x-icon" href="Alkhlwtea/icon1.png">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -55,7 +61,7 @@ iframe{
          </ul>
          </nav>         
          <a href="#"><img src="Alkhlwtea/logo3.png" alt="cart" width="30px" height="30px"/></a>
-         <img src="Alkhlwtea/menu.png" class="menu-icon" onclick="menuetoggle()" />
+            <img src="Alkhlwtea/menu.png" class="menu-icon" onclick="menuetoggle()" />
 
      </div>
 
@@ -65,7 +71,7 @@ iframe{
 <div class="row">
     <div class="col-4">
 
-        <h3 style="text-align:center ;">موقع مسجد مكة المكرمة</h3>
+        <h3 style="text-align:center ;">موقع مسجد ومجمع  مكة المكرمة الذي يقام به المجالس الاسبوعية</h3>
         <iframe  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d887.2189206437672!2d31.182837299999996!3d27.191643799999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14450bf786eb4823%3A0xebcb4b4ce74434ac!2z2YXYs9is2K8g2YXYrNmF2Lkg2YXZg9ip!5e0!3m2!1sen!2seg!4v1666359897316!5m2!1sen!2seg" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
     
@@ -73,7 +79,7 @@ iframe{
 </div>
 <div style="text-align:center ;">
     <h4>اوالاتصال على الارقام التالية </h4>
-    <h5><img src="Alkhlwtea/phone.png" width="100px" height="100px" >01215151515-021151515</h5>
+    <h5><img src="Alkhlwtea/phone.png" width="100px" height="100px" >0000000-00000000</h5>
 </div>
 
 
@@ -125,7 +131,21 @@ iframe{
             </div>
          </div>
 
-  
+   <script>
+             var menueItems=document.getElementById("MenuItem");
+            menueItems.style.maxHeight="0px";
+            function menuetoggle(){
+                    if(menueItems.style.maxHeight=="0px"){
+                        menueItems.style.maxHeight="200px";
+                    }
+                    else{
+                        menueItems.style.maxHeight="0px";
+                        
+                    }
+            }
+           
+
+             </script>
 
 </body>
 </html>
