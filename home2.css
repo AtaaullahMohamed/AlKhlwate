@@ -295,6 +295,7 @@ border-radius: 50%;
 
  .menu-icon{
      width: 28px;
+     margin-top: 0px;
      margin-left: 10px;
     display: none;
  }
@@ -411,8 +412,10 @@ input:focus{
    
     nav ul{
         position: relative;
+        /* top: 50px; */
         left: 0;
         background: #333;
+        
         width: 100%;
         overflow: hidden; 
          transition: max-height 0.5s; 
