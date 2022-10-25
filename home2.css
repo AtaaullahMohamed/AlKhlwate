@@ -34,7 +34,7 @@ nav ul li{
 
 }
 nav ul li a:hover{
-border-bottom:2px solid #ff523b ;
+border-bottom:2px solid #108d0b ;
 }
 a{
     text-decoration: none;
@@ -86,7 +86,7 @@ p{
 }
 
 .btn:hover{
-background: #563434;
+background: #389152;
 }
 .header{
     background-image:url('Alkhlwtea/back.PNG') ;
@@ -142,7 +142,7 @@ background: #563434;
 
 .title::after{
     content: '';
-    background: #ff523b;
+    background: #108d0b;
     width: 80px;
     height: 5px;
     border-radius: 5px;
@@ -160,7 +160,7 @@ background: #563434;
     font-size: 14px;
 }
 .rating .fa{
-color: #ff523b;
+color: #108d0b;
 }
 .col-4:hover{
     transform: translateY(-50px);
@@ -180,7 +180,7 @@ background-image: url('Alkhlwtea/back.PNG');
 
 }
 small{
-    color:#555 ;
+    color:rgb(5, 5, 5) ;
 }
 
 
@@ -208,12 +208,12 @@ border-radius: 50%;
 
 .fa.fa-quote-left{
     font-size: 34px;
-    color: #ff523b;
+    color: #108d0b;
 }
 .col-3 p{
     font-size: 12px;
     margin: 12px 0;
-    color:#777;
+    color:rgb(15, 10, 10);
 }
 .testimionial .col-3 h3{
     font-weight: 600;
@@ -243,13 +243,17 @@ border-radius: 50%;
 
 .footer{
     background-color: #000;
-    color: #8a8a8a;
+    color: #f0ebeb;
     font-size: 14px;
     padding:60px 0 20px;
 
 }
 .footer p{
-    color: #8a8a8a;
+    color: #f0ebeb;
+    
+}
+.footer a{
+    color: #f0ebeb;
 }
 .footer h3{
     color: #fff;
@@ -318,7 +322,7 @@ border-radius: 50%;
     margin: 100px auto 50px;  
 }
 select{
-    border:1px solid #ff523b;
+    border:1px solid #108d0b;
     padding: 5px;
 }
 
@@ -334,7 +338,7 @@ select:focus{
 
 .page-btn span{
     display: inline-block;
-    border: 1px solid #ff523b;
+    border: 1px solid #108d0b;
     margin-left: 10px;
     width: 40px;
     height: 40px;
@@ -344,7 +348,7 @@ select:focus{
 }
 
 .page-btn span:hover{
-    background:#ff523b;
+    background:#108d0b;
     color: #fff;
 
 }
@@ -381,7 +385,7 @@ select:focus{
     padding-left: 10px;
     font-size: 20px;
     margin-right: 10px;
-    border: 1px solid #ff523b;
+    border: 1px solid #108d0b;
 }
 
 input:focus{
@@ -389,7 +393,7 @@ input:focus{
 }
 
 .singleproduct .fa{
-    color: #ff523b;
+    color: #108d0b;
     margin-left: 10px;
 }
 
