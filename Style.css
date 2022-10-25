@@ -7,6 +7,7 @@ header img {
 body {
     height: 125vh;
     background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('Images/pure-9-1600x1200.jpg');
+    
     background-size: cover;
     font-family: sans-serif;
     margin-top: 80px;

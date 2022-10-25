@@ -38,11 +38,12 @@ border-bottom:2px solid #ff523b ;
 }
 a{
     text-decoration: none;
-    color: #555;
+    color: rgb(12, 12, 12);
+    font-size: large;
     transition: border-bottom 0.5s;
 }
 p{
-    color: #555;
+    color: rgb(32, 32, 32);
     
 }    
 
@@ -76,8 +77,8 @@ p{
 
 .btn{
     display: inline-block;
-    background: #ff523b;
-    color: #fff;
+    background: #0da71a;
+    color: rgb(12, 12, 12);
     padding: 8px 30px;
     margin: 30px 0;
     border-radius: 30px;
@@ -88,7 +89,10 @@ p{
 background: #563434;
 }
 .header{
-    background:radial-gradient(#fff,#ffd6d6);
+    background-image:url('Alkhlwtea/back.PNG') ;
+    background-color: #cccccc;
+
+    /* background:radial-gradient(#fff,#ffd6d6); */
 }
 
 .header .row{
@@ -162,8 +166,11 @@ color: #ff523b;
     transform: translateY(-50px);
 }
 
+
+/* //الحب المحمدي */
 .offer{
-    background:radial-gradient(#fff,#ffd6d6);
+background-image: url('Alkhlwtea/back.PNG');
+    /* background:radial-gradient(#fff,#ffd6d6); */
     margin-top: 80px;
     padding: 30px 0;
 }
@@ -415,7 +422,7 @@ input:focus{
         /* top: 50px; */
         left: 0;
         background: #333;
-        
+        height: auto;
         width: 100%;
         overflow: hidden; 
          transition: max-height 0.5s; 
