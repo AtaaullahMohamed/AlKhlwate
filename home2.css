@@ -439,6 +439,7 @@ input:focus{
     }  
     nav ul li a{
         color: #fff;
+        font-size: small;
 
     } 
     .menu-icon{
